@@ -26,10 +26,24 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  turboazot
 
+# Telegram comments
+telegram:
+  comments: true  # Set to false to disable comments globally
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+# Pagination settings
+paginate: 10
+paginate_path: "/page:num/"
+
+# Header pages
+header_pages:
+  - about.markdown
+  - categories.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.

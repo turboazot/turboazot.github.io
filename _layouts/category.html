@@ -1,0 +1,192 @@
+---
+layout: default
+---
+
+<div class="category-page">
+  <header class="category-header">
+    {% if site.data.categories[page.category].icon %}
+      <div class="category-icon-large">{{ site.data.categories[page.category].icon }}</div>
+    {% endif %}
+    <h1>
+      {% if site.data.categories[page.category] %}
+        {{ site.data.categories[page.category].name }}
+      {% else %}
+        {{ page.category }}
+      {% endif %}
+    </h1>
+    <p class="category-description">
+      {% if site.data.categories[page.category] %}
+        {{ site.data.categories[page.category].description }}
+      {% endif %}
+    </p>
+    {% assign posts = site.categories[page.category] %}
+    {% assign count = posts | size %}
+    <div class="post-count">
+      {{ count }}
+      {% if count == 1 %}
+        пост
+      {% elsif count >= 2 and count <= 4 %}
+        поста
+      {% else %}
+        постов
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="posts-list">
+    {% assign posts = site.categories[page.category] %}
+    {% if posts.size > 0 %}
+      {% for post in posts %}
+        <article class="post-preview">
+          <div class="post-header-info">
+            <span class="post-date">{{ post.date | date: "%d %B %Y" }}</span>
+          </div>
+          <h2 class="post-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+          {% if post.excerpt %}
+            <div class="post-excerpt">
+              {{ post.excerpt | strip_html | strip_newlines | truncatewords: 50 }}
+            </div>
+          {% endif %}
+          <a href="{{ post.url | relative_url }}" class="read-more">Читать далее →</a>
+        </article>
+      {% endfor %}
+    {% else %}
+      <p class="no-posts">В этой категории пока нет постов.</p>
+    {% endif %}
+  </div>
+
+  <div class="back-link">
+    <a href="{{ '/categories/' | relative_url }}">← Все категории</a>
+  </div>
+</div>
+
+<style>
+.category-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.category-header {
+  margin-bottom: 3em;
+  padding-bottom: 1.5em;
+  border-bottom: 2px solid #e8e8e8;
+  text-align: center;
+}
+
+.category-icon-large {
+  font-size: 4em;
+  margin-bottom: 0.3em;
+}
+
+.category-header h1 {
+  margin-bottom: 0.5em;
+  font-size: 2.5em;
+}
+
+.category-description {
+  color: #666;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+.post-count {
+  display: inline-block;
+  background: #f0f0f0;
+  padding: 0.4em 1em;
+  border-radius: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.posts-list {
+  margin-bottom: 3em;
+}
+
+.post-preview {
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.post-preview:last-child {
+  border-bottom: none;
+}
+
+.post-header-info {
+  margin-bottom: 0.5em;
+}
+
+.post-date {
+  color: #828282;
+  font-size: 0.9em;
+}
+
+.post-title {
+  margin: 0.5em 0;
+  font-size: 1.8em;
+  line-height: 1.3;
+}
+
+.post-title a {
+  color: #111;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.post-title a:hover {
+  color: #2a7ae2;
+}
+
+.post-excerpt {
+  color: #666;
+  line-height: 1.6;
+  margin: 1em 0;
+}
+
+.read-more {
+  color: #2a7ae2;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95em;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.no-posts {
+  text-align: center;
+  color: #999;
+  padding: 3em 0;
+  font-style: italic;
+}
+
+.back-link {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid #e8e8e8;
+}
+
+.back-link a {
+  color: #2a7ae2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .category-header h1 {
+    font-size: 2em;
+  }
+  
+  .post-title {
+    font-size: 1.4em;
+  }
+}
+</style>
+
