@@ -1,141 +1,98 @@
 # Clarity
 
-## 1. Cut verbal garbage
+## 1. Убирай учебниковый туман
 
-Garbage is any word that adds weight but not meaning.
+Если фраза звучит как определение из учебника, проверь, можно ли сказать проще.
 
-Typical garbage:
+Тяжело:
+> Электрический ток является направленным движением заряженных частиц.
 
-- in fact
-- it should be noted that
-- as everyone knows
-- at the present time
-- in order to
-- within the framework of
-- there is
-- it is worth mentioning
+Проще:
+> Ток - это когда заряд движется через цепь.
 
-If the phrase can disappear and the meaning stays, cut it.
+Еще проще для первого слоя:
+> Ток - это когда электроны сдвигаются по цепи.
 
-Bad:
-> It should be noted that users often face difficulties during onboarding.
+## 2. Сначала глагол, потом существительное
 
-Better:
-> Users often get stuck during onboarding.
+Читателю проще понимать действия:
 
-## 2. Prefer simple words
+- отдает
+- забирает
+- тянет
+- толкает
+- мешает
+- греет
+- светится
 
-Use the simplest accurate word.
+Сложные существительные оставляй на потом:
 
-Prefer:
+- потенциал
+- сопротивление
+- электромагнитное поле
+- носители заряда
+- работа
 
-- help instead of facilitate
-- start instead of initiate
-- use instead of utilize
-- explain instead of elaborate on
-- check instead of verify when the context is simple
+## 3. Не объясняй неизвестное через неизвестное
 
-Bad:
-> The platform facilitates communication between specialists.
+Плохо:
+> Напряжение - это разность потенциалов.
 
-Better:
-> The platform helps specialists talk to each other.
+Для новичка "потенциал" ничего не объясняет.
 
-## 3. Kill bureaucracy
+Лучше:
+> Напряжение - это насколько сильный перекос между двумя точками. Чем сильнее перекос, тем сильнее электроны толкает по цепи.
 
-Bureaucratic language hides action behind official-sounding fog.
+Потом можно добавить:
+> В физике это называют разностью потенциалов.
 
-Bad:
-> Within the framework of this article, we will examine the issue of reader engagement.
+## 4. Держи одну картинку в абзаце
 
-Better:
-> In this article, we will show why readers stop after the first screen.
+Если начал говорить про атомы - не перескакивай в лампочку.
+Если начал говорить про караван - не добавляй поле.
+Если начал говорить про поле - не тащи туда октет.
 
-Bad:
-> There is a need to improve the quality of service.
+Один абзац - одна картинка.
 
-Better:
-> The company needs to answer faster and fix recurring mistakes.
+## 5. Используй "страшные слова" как ярлыки
 
-## 4. Prefer verbs over noun piles
+Сначала объясни:
 
-Bad:
-> The implementation of optimization was carried out.
+> Материал мешает электронам двигаться.
 
-Better:
-> The team optimized the process.
+Потом подпиши:
 
-Bad:
-> The realization of the strategy requires coordination.
+> Это называется сопротивлением.
 
-Better:
-> The team needs to coordinate before it can carry out the strategy.
+Не наоборот.
 
-If the sentence is built from heavy nouns, look for the hidden verb.
+## 6. Убирай лишнюю точность
 
-## 5. Use active construction
+Точность полезна, когда она помогает понять следующий шаг.
+Если точность только путает, вынеси ее в скобки или в конец.
 
-Prefer:
-- who did what
+Нормально:
+> В электричестве: сколько энергии приходится на один электрон (точнее, на порцию заряда).
 
-Instead of:
-- what was done by whom
+Плохо:
+> Здесь необходимо учитывать, что переносчиками заряда могут быть не только электроны...
 
-Bad:
-> The report was prepared by the editor.
+Такой нюанс лучше оставить для вывода.
 
-Better:
-> The editor prepared the report.
+## 7. Объясняй "почему", а не только "что"
 
-Bad:
-> A decision was made to redesign the homepage.
+Слабое объяснение:
+> Лампочка светится из-за сопротивления.
 
-Better:
-> The team decided to redesign the homepage.
+Лучше:
+> Нить мешает электронам двигаться. Они сталкиваются с атомами материала, материал нагревается, а потом начинает светиться.
 
-## 6. Remove duplicated meaning
+## 8. Если читатель может спросить "и что?", допиши пользу
 
-Two neighboring sentences often repeat the same thought with different words.
-Keep the sharper one.
+Плохо:
+> Электроны движутся.
 
-Bad:
-> The feature is useful for beginners. It helps new users get started.
+Лучше:
+> Электроны движутся через нить лампочки, и из-за этого нить нагревается.
 
-Better:
-> The feature helps beginners get started.
-
-## 7. Clean the start of paragraphs
-
-Weak paragraphs often begin with throat-clearing.
-
-Bad:
-> There are many reasons why this topic is important today.
-
-Better:
-> This topic matters because companies lose money when they ignore onboarding.
-
-Bad:
-> In today's world, content plays an important role.
-
-Better:
-> Content brings traffic, trust, and demand when it solves a real reader problem.
-
-## 8. Replace abstraction with something visible
-
-If a phrase sounds general, ask:
-
-- can I name the object?
-- can I show the scene?
-- can I describe the consequence?
-
-Bad:
-> Users value convenience.
-
-Better:
-> Users stay longer when checkout takes two steps instead of seven.
-
-Bad:
-> The interface should be intuitive.
-
-Better:
-> A new user should understand where to click without reading a manual.
+Показывай, что меняется в мире из-за описанного явления.

@@ -1,134 +1,104 @@
 # Structure
 
-## 0. Default format: short social post
+## 1. Начинай с простого механизма
 
-By default, write as if the text will be read in Telegram or Instagram.
+Не начинай с истории вопроса, философии или словаря.
+Начинай с того, что читатель может представить.
 
-That means:
+Хороший старт:
 
-- one main thought per post
-- a fast first line
-- short paragraphs
-- no throat-clearing
-- no essay-like sprawl
+- есть атом
+- у него есть электроны
+- часть электронов держится слабее
+- из-за этого что-то может сдвинуться
 
-If the point fits in 5 lines, do not stretch it to 20.
+Плохой старт:
 
-A short post usually works like this:
+- "электричество окружает нас повсюду"
+- "с древних времен человечество..."
+- "чтобы понять электричество, нужно сначала разобраться..."
 
-1. hook or direct point
-2. explanation
-3. example or consequence
-4. takeaway
+## 2. Одна секция - один кусок интуиции
 
-## 1. Title
+Секция должна отвечать на один вопрос.
 
-A title should help the reader understand three things fast:
+Например:
 
-- what the article is about
-- for whom it matters
-- why it is worth reading
+- как устроен атом
+- почему один атом отдает, а другой забирает
+- зачем нужен проводник
+- почему лампочка светится
+- как связаны напряжение, ток и сопротивление
 
-Bad:
-- Thoughts on productivity
-- A few words about onboarding
-- Reflections on modern interfaces
+Если в секции появились два разных вопроса - раздели.
 
-Better:
-- How onboarding breaks when no one owns the second week
-- A simple budgeting method for freelancers with unstable income
-- Why readers leave after the first screen
+## 3. Сначала сцена, потом термин
 
-A title should orient, not pose vaguely.
+Для сложных тем порядок такой:
 
-## 2. Lead
+1. покажи бытовую сцену
+2. объясни, что в ней происходит
+3. только потом назови физический термин
 
-The lead should answer one of these immediately:
+Плохо:
+> Напряжение - это разность потенциалов.
 
-- what problem is this article about?
-- why should the reader care now?
-- what will the article help the reader do or understand?
+Лучше:
+> В одной точке электроны сильнее выталкиваются, в другой сильнее притягиваются. Этот перекос и называется напряжением.
 
-Bad:
-> Since ancient times, people have looked for ways to communicate more effectively.
+## 4. Аналогия должна держать одну мысль
 
-Better:
-> Most corporate blogs lose the reader in the first screen because they start with self-importance instead of a useful point.
+Не заставляй одну аналогию объяснять всю физику сразу.
 
-## 3. One section, one job
+Если аналогия про маршрут людей с флягами, она объясняет:
 
-Each section should do one thing.
+- один и тот же поток через все участки
+- участки забирают разное количество "запаса"
+- сложные участки замедляют общий поток
 
-For example:
+Не надо в эту же аналогию пихать атомы, поля, химию, батарейки и лампочки.
 
-- define the problem
-- explain the cause
-- show examples
-- compare options
-- give a method
-- warn about mistakes
+## 5. Термины собирай в конце блока
 
-If a section tries to do everything, split it.
+Если терминов много, не сыпь ими в начале.
+Сначала дай читателю прожить механику, потом подпиши:
 
-## 4. Subheadings should guide
+- это напряжение
+- это сила тока
+- это сопротивление
+- это падение напряжения
 
-A subheading should help the reader decide whether to read the next block.
+Так термин становится ярлыком на уже понятной штуке.
 
-Bad:
-- Important nuance
-- Another point
-- What next
+## 6. Абзац должен быть коротким
 
-Better:
-- Why readers drop off after the first screen
-- What changes when you shorten the form
-- Three mistakes that make the article feel generic
+Один абзац - одна мысль.
+Если абзац объясняет причину, пример, исключение и вывод сразу - он перегружен.
 
-## 5. Paragraphs should move the thought
+Хороший абзац можно пересказать одной короткой фразой.
 
-A paragraph should carry one clear idea.
+## 7. Повторы режь без жалости
 
-Test:
-- can the reader explain this paragraph in one short sentence?
+Если мысль уже прозвучала, не повторяй ее через два абзаца другими словами.
 
-If not, the paragraph is overloaded.
+Особенно следи за повторами:
 
-## 6. Lists are for scanning
+- "если препятствий нет, все рванут"
+- "трудный участок забирает воду"
+- "электронам нужен проводник"
+- "мы жертвуем точностью"
 
-Use lists when the reader needs to:
+Оставляй самый сильный вариант.
 
-- compare points
-- follow steps
-- remember a structure
-- scan several examples quickly
+## 8. Заканчивай честной рамкой
 
-Do not use a list just because it looks neat. Use it when it speeds up reading.
+В конце объясни, что именно статья дала читателю.
 
-## 7. Build a visible progression
+Хороший финал:
 
-A strong article often moves like this:
+- "это не учебник"
+- "я упростил ради интуиции"
+- "тут есть нюансы, которые мы не трогали"
+- "теперь есть от чего оттолкнуться"
 
-1. problem
-2. explanation
-3. example
-4. implication
-5. action or conclusion
-
-The exact order can change, but the reader should feel movement, not drift.
-
-## 8. End concretely
-
-Do not end with a foggy moral.
-
-Weak:
-> In conclusion, this issue is complex and deserves further reflection.
-
-Better:
-> If your article opens with abstraction, cut the first two paragraphs and start from the reader's problem.
-
-A useful ending can:
-
-- summarize the key takeaway
-- point to the next step
-- sharpen the choice
-- warn about the main mistake
+Не заканчивай пафосом.

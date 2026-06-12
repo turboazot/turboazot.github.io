@@ -1,38 +1,45 @@
 # Checklist
 
-Use this before publishing a blog post.
+Use this before publishing an explanatory article.
 
-## Reader value
+## Интуиция
 
-1. Is the article useful to a specific reader?
-2. Is the point clear in the title and lead?
-3. Will the reader leave with a conclusion, method, warning, or next step?
+1. Понятно ли, какую картинку читатель должен собрать в голове?
+2. Есть ли простая механика: кто что толкает, тянет, мешает или забирает?
+3. Можно ли пересказать статью без терминов?
+4. Появляются ли термины только после того, как смысл уже понятен?
 
-## Clarity
+## Простота
 
-4. Did I remove garbage words and clichés?
-5. Did I replace complex wording with simpler precise wording?
-6. Did I rewrite bureaucratic and passive constructions?
-7. Does each paragraph carry one clear idea?
+5. Есть ли абзацы, где автор умничает вместо объяснения?
+6. Можно ли заменить тяжелое слово на бытовое?
+7. Не слишком ли рано появились "потенциал", "энергия", "поле", "заряд", "кулон"?
+8. Нет ли длинного захода перед главным смыслом?
 
-## Facts and proof
+## Аналогии
 
-8. Did I replace vague praise with facts, examples, or details?
-9. Did I support important claims with evidence or honest limits?
-10. Did I add examples early enough?
-11. Did I separate fact from interpretation and opinion?
+9. Объясняет ли аналогия одну конкретную мысль?
+10. Не пытается ли аналогия объяснить всю тему сразу?
+11. Не конфликтует ли аналогия с физикой слишком сильно?
+12. Есть ли мостик от аналогии к настоящему термину?
 
-## Structure
+## Физика
 
-12. Do the subheadings guide the reader?
-13. Is the order of ideas easy to follow?
-14. Are lists used where they improve scanning?
-15. Does the ending say something concrete?
+13. Есть ли грубая ошибка, которая собьет читателя дальше?
+14. Если точность принесена в жертву, сказано ли это честно?
+15. Не добавлены ли нюансы, которые ломают простоту без пользы?
+16. Есть ли короткая оговорка для более точного слоя, если тема спорная?
 
-## Final filter
+## Структура
 
-16. Can I cut 10 to 20 percent without loss?
-17. Can this post become shorter and denser without losing meaning?
-18. Is there any sentence that sounds smart but says little?
-19. Is there any abstract claim that still needs a scene, detail, number, or example?
-20. Is there any phrase written to create importance instead of meaning?
+17. Одна секция отвечает на один вопрос?
+18. Каждый абзац несет одну мысль?
+19. Нет ли повторов одной и той же идеи?
+20. Вывод объясняет, что статья дала читателю и где она упрощает?
+
+## Финальный фильтр
+
+21. Можно ли выкинуть 10% текста без потери смысла?
+22. Есть ли фраза, которую читатель поймет только после гугла?
+23. Есть ли место, где хочется спросить "а почему?"
+24. После статьи стало проще или просто появилось больше терминов?

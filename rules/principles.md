@@ -1,68 +1,78 @@
 # Principles
 
-## 1. Write for the reader, not for self-expression
+## 1. Сначала интуиция, потом точность
 
-Text is not a stage for the author.
-Text is a tool.
+Задача статьи - не пересказать учебник.
+Задача статьи - дать читателю точку опоры.
 
-The reader opens an article to:
+Сначала объясни механику на пальцах:
 
-- solve a problem
-- understand a topic
-- compare options
-- avoid mistakes
-- make a decision
+- что на что действует
+- почему что-то начинает двигаться
+- где возникает польза
+- что изменится, если один кусок убрать
 
-Always ask:
+Термины, оговорки и точные формулировки добавляй после того, как читатель уже почувствовал смысл.
 
-- what does the reader need here?
-- what can I remove without harming meaning?
-- what will the reader be able to do after this section?
+## 2. Пиши как человек, который сам только что понял
 
-## 2. Meaning is more important than beauty
+Хороший тон для таких статей:
 
-Do not decorate weak thoughts with fancy words.
-First make the idea clear, then make the wording clean.
+- простые слова
+- короткие абзацы
+- живые формулировки
+- честное "вот тут упрощаю"
+- минимум академического воздуха
 
-If a sentence sounds impressive but says little, rewrite it.
+Плохо:
+> Электрический ток представляет собой упорядоченное движение заряженных частиц под воздействием электрического поля.
 
-## 3. Respect the reader's time
+Лучше:
+> Если в цепи появился перекос, электроны начинают сдвигаться. Это движение мы и называем током.
 
-Do not force the reader to dig through:
+## 3. Сложное объясняй через взаимодействие
 
-- long intros
-- abstract philosophy
-- obvious statements
-- repeated ideas
-- throat-clearing phrases
+Не давай определения в вакууме.
+Показывай, как штуки связаны друг с другом.
 
-Start close to the point.
+Например, не просто:
+> Сопротивление - это физическая величина.
 
-## 4. One sentence, one job
+А так:
+> Сопротивление - это насколько участок мешает электронам двигаться. Чем сильнее мешает, тем меньше поток.
 
-A sentence should do one clear thing:
+Читателю важна не энциклопедическая точность, а рабочая модель в голове.
 
-- state a fact
-- explain a cause
-- show an example
-- compare options
-- lead to a conclusion
+## 4. Не бойся бытовых слов
 
-If one sentence tries to do everything, split it.
+Можно писать:
 
-## 5. Show instead of praising
+- "хочет отдать"
+- "хочет забрать"
+- "болтается"
+- "перекос"
+- "толкает"
+- "мешает"
+- "сносит"
+- "не доберутся"
 
-Do not tell the reader that something is amazing, high-quality, revolutionary, or powerful.
-Show:
+Если слово помогает понять - оно годится.
+Потом можно добавить мостик к физическому термину.
 
-- what it does
-- for whom it works
-- in what situation it helps
-- what changed after using it
+## 5. Честно отмечай, где модель упрощена
 
-## 6. Help, do not impress
+Упрощение - нормально.
+Опасно не упрощение, а видимость, что это вся правда.
 
-The writer's task is not to prove intelligence.
-The writer's task is to reduce confusion.
+В конце или после сложного места добавляй короткую оговорку:
 
-The best paragraph often feels obvious after reading. That is a strength, not a weakness.
+> Технически все сложнее, но для первого понимания этой модели достаточно.
+
+Не превращай оговорку в лекцию. Она должна защищать текст, а не ломать его.
+
+## 6. Помогай, а не впечатляй
+
+Не доказывай, что автор умный.
+Докажи, что читателю стало проще.
+
+Если после абзаца хочется сказать "а, ну вот оно как" - абзац работает.

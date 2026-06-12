@@ -1,95 +1,104 @@
 # Editing
 
-## 1. Treat the first draft as raw material
+## 1. Не переписывай голос автора
 
-The first version is not the result. It is clay.
+Если текст уже звучит живо, не делай из него учебник.
+Редактура должна сохранять интонацию.
 
-Write freely, then edit hard.
+Можно поправить:
 
-## 2. Edit in passes
+- физическую ошибку
+- перегруз
+- повтор
+- слишком длинный заход
+- место, где читатель споткнется
 
-Do not fix everything at once.
+Нельзя без причины заменять весь абзац на "правильную" версию другим голосом.
 
-Recommended passes:
+## 2. Правь маленькими движениями
 
-1. meaning
-2. structure
-3. clarity
-4. proof
-5. compression
+Лучший формат правки:
 
-## 3. Meaning pass
+- оставить авторскую фразу
+- заменить одно тяжелое слово
+- добавить короткое уточнение
+- убрать лишний оборот
+- переставить предложение
 
-Ask:
+Плохо: переписать весь блок с нуля, когда просили "слегка поправить".
 
-- what is this article really saying?
-- where does it drift?
-- what can be cut without loss?
-- what does the reader gain from each section?
+## 3. Сначала найди, что абзац делает
 
-If a section gives the reader nothing, cut it.
+Перед правкой спроси:
 
-## 4. Structure pass
+- какую мысль несет абзац?
+- какую картинку он должен дать?
+- какой термин готовит?
+- что нельзя потерять?
 
-Check:
+Потом редактируй только то, что мешает этой задаче.
 
-- does the title promise the right thing?
-- does the lead get to the point fast?
-- does each section do one job?
-- does the order feel natural?
+## 4. Упрощай физику, но не ври грубо
 
-## 5. Clarity pass
+Допускается:
 
-Look for:
+- "электроны хотят"
+- "атом хочет отдать"
+- "электроны толкаются"
+- "поток идет"
 
-- bureaucratic wording
-- noun piles
-- passive constructions
-- repeated thoughts
-- vague claims
-- decorative intros
+Но если упрощение начинает вести в неправильную сторону, добавь короткий мостик:
 
-Rewrite in plain active language.
+> Точнее, двигается заряд, но для первого понимания будем говорить "электроны".
 
-## 6. Proof pass
+И дальше возвращайся к простой модели.
 
-Mark every unsupported claim.
-Then decide:
+## 5. Не вводи новый термин без нужды
 
-- add a fact
-- add an example
-- soften the wording
-- cut the sentence
+Если читатель еще не готов, не добавляй:
 
-Bad:
-> This method works very well for most teams.
+- поле
+- потенциал
+- кулон
+- работа
+- энергия
+- дрейф
+- носитель заряда
 
-Better:
-> In three product teams we studied, this method reduced meeting time by 20 to 30 percent.
+Сначала объясни на знакомой сцене.
+Термин добавляй только если он помогает следующему шагу.
 
-## 7. Compression pass
+## 6. Режь когнитивную нагрузку
 
-Make the text lighter without making it thinner.
+Сложные фразы заменяй на бытовые.
 
-Cut:
+Тяжело:
+> Чем ближе внешний слой к ядру, тем сильнее атом тянет недостающий электрон к себе.
 
-- repeated meaning
-- obvious transitions
-- weak adjectives
-- filler phrases
-- self-important framing
+Проще:
+> Если нужное место ближе к ядру, атом сильнее тянет электрон.
 
-A good test:
-- can I cut 10 to 20 percent and keep the article stronger?
+Еще проще, если точность не критична:
+> Некоторым атомам проще забрать электрон, чем другим.
 
-## 8. Read for friction
+## 7. Оставляй одну главную причину
 
-Notice where reading slows down.
-Those places usually contain:
+Не объясняй явление сразу через пять факторов.
+Для первого понимания выбери одну ось.
 
-- abstraction without example
-- a sentence that hides the subject
-- two ideas jammed together
-- false importance
+Например:
 
-Friction marks the next edit.
+- далеко от ядра - легче отдать
+- близко к ядру - сильнее тянет
+- больше препятствий - меньше поток
+
+Остальные нюансы можно оставить за кадром.
+
+## 8. В конце добавь честный слой точности
+
+Если статья сильно упрощает тему, финальный абзац должен сказать это прямо.
+
+Но коротко.
+
+Не надо превращать вывод в список всех исключений.
+Достаточно обозначить, что модель первая, не последняя.
